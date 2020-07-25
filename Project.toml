@@ -1,0 +1,13 @@
+name = "lhaoPkg"
+uuid = "09c8f5f7-430b-4031-af07-2713edc1692f"
+authors = ["lianghao101"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
